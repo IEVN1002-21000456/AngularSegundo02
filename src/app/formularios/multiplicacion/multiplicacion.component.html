@@ -1,0 +1,18 @@
+<div>
+  <h1>Multiplicacion</h1>
+  <form [formGroup]="formulario">
+    <div>
+      <label for="numero1" class="form-label">
+        numero 1
+      </label>
+      <input type="number" id="numero1" class="form-control" formControlName="numero1"/>
+      <label for="numero2" class="form-label">
+        numero 2
+      </label>
+      <input type="number" id="numero2" class="form-control" formControlName="numero2"/>
+      <br>
+      <button class="btn btn-primary" (click)="calcularDistancia()">Multiplicar</button>
+      <h2>Resultado: {{resultado}}</h2>
+    </div>
+  </form>
+</div>

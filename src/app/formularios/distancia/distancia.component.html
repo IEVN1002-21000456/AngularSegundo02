@@ -1,0 +1,36 @@
+<div style="padding: 20px;">
+  <h1>Calculo de Distancias de 4 Factores</h1>
+
+  <form [formGroup]="formulario">
+    <div style="display: flex; gap: 50px;">
+
+      <div>
+
+        <label for="x1" class="form-label">(X1)</label>
+        <input type="number" id="x1" class="form-control" formControlName="x1" placeholder="Primer numero"/>
+
+        <label for="y1" class="form-label">(Y1)</label>
+        <input type="number" id="y1" class="form-control" formControlName="y1" placeholder="Segundo numero"/>
+
+        <label for="x2" class="form-label">(X2)</label>
+        <input type="number" id="x2" class="form-control" formControlName="x2" placeholder="Tercer numero"/>
+
+        <label for="y2" class="form-label">(Y2)</label>
+        <input type="number" id="y2" class="form-control" formControlName="y2" placeholder="Cuarto numero"/>
+
+        <button class="btn btn-primary"(click)="calcularDistancia()">
+          Calcular
+        </button>
+      </div>
+
+      <div style="margin-top: 80px;">
+        <h3 id="resultado">
+          El resultado es:
+          <span>
+            {{ resultado }}
+          </span>
+        </h3>
+      </div>
+    </div>
+  </form>
+</div>
