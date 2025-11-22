@@ -32,7 +32,7 @@
                             <input type="number" id="mes" placeholder="Mes" maxlength="2" class="form-control text-center" formControlName="mes">
                         </div>
                         <div class="col">
-                            <input type="number" id="anio" placeholder="Año" maxlength="4" class="form-control text-center" formControlName="anio">
+                            <input type="number" id="anio" placeholder="Anio" maxlength="4" class="form-control text-center" formControlName="anio">
                         </div>
                     </div>
 
@@ -58,9 +58,9 @@
         <div class="col-md-6 border-start" [style.display]="nombreCompleto ? 'flex' : 'none'">
             <div class="d-flex flex-column align-items-center justify-content-center h-100">
 
-                <p class="fs-4 text-center">Hola **{{ nombreCompleto }}**</p>
+                <p class="fs-4 text-center">Hola {{ nombreCompleto }}</p>
 
-                <p class="fs-2">Tienes <span class="fw-bold">{{ edadFinal }}</span> años</p>
+                <p class="fs-2">Tienes <span class="fw-bold">{{ edadFinal }}</span> anios</p>
 
                 <h5 class="mt-4">Tu Signo Chino es:</h5>
                 <p class="fs-1 fw-bold text-success">{{ signoChino }}</p>

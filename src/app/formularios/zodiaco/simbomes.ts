@@ -32,43 +32,42 @@ export class DatosPersonales {
 
         switch (nombreSignoChino) {
             case 'Rata':
-                this.imagenChino = "assets/fotosZodi/rata.jpg";
+                this.imagenChino = 'https://elcomercio.pe/resizer/gvwaapjuyrjZr-2E33k8Saw1rbc=/1200x680/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/VUKSU3CECFA6RILNQZYIO35ZHY.jpg';
                 break;
             case 'Buey':
-                this.imagenChino = "assets/fotosZodi/buey.jpg";
+                this.imagenChino = 'https://ccl.uanl.mx/wp-content/uploads/2023/10/06_horoscopo_chino_Buey-768x657-1.jpg';
                 break;
             case 'Tigre':
-                this.imagenChino = "assets/fotosZodi/tigre.jpg";
+                this.imagenChino = 'https://ccl.uanl.mx/wp-content/uploads/2023/10/06_horoscopo_chino_Tigre-768x657-1.jpg';
                 break;
             case 'Conejo':
-                this.imagenChino = "assets/fotosZodi/conejo.jpg";
+                this.imagenChino = 'https://confuciomag.com/wp-content/uploads/2016/01/06_horoscopo_chino_Conejo.jpg';
                 break;
             case 'Dragon':
-                this.imagenChino = "assets/fotosZodi/dragon.jpg";
+                this.imagenChino = 'https://confuciomag.com/wp-content/uploads/2016/01/06_horoscopo_chino_Dragon.jpg';
                 break;
             case 'Serpiente':
-                this.imagenChino = "assets/fotosZodi/serpiente.jpg";
+                this.imagenChino = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4U7tMAfmJiDTq_DCS5JK5BG35ot1fJptC6g&s';
                 break;
             case 'Caballo':
-                this.imagenChino = "assets/fotosZodi/caballo.jpg";
+                this.imagenChino = 'https://confuciomag.com/wp-content/uploads/2016/01/06_horoscopo_chino_Caballo.jpg';
                 break;
             case 'Cabra':
-                this.imagenChino = "assets/fotosZodi/carnero.jpg";
+                this.imagenChino = 'https://peopleenespanol.com/thmb/Fwy99mIonHJYbhmA9AOTeWCpkdU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Horoscopo-chino-165967741-2000-12afb4d370f14afe856f05ba36fe1693.jpg';
                 break;
             case 'Mono':
-                this.imagenChino = "assets/fotosZodi/mono.jpg";
+                this.imagenChino = 'https://www.hola.com/horizon/square/2d10e56a60a0-mono-horoscopo-chino.jpg';
                 break;
             case 'Gallo':
-                this.imagenChino = "assets/fotosZodi/gallo.jpg";
+                this.imagenChino = 'https://peopleenespanol.com/thmb/Th2wLXhS9Tzh3VR7DtVB9CwgUFE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Horoscopo-chino-165926089-2000-25a52aba2d0942679de98ba836f1ab9f.jpg';
                 break;
             case 'Perro':
-                this.imagenChino = "assets/fotosZodi/perro.jpg";
+                this.imagenChino = 'https://studycli.org/wp-content/uploads/2021/06/chinese-new-year-year-of-the-dog-paper-cutting.jpeg';
                 break;
             case 'Cerdo':
-                this.imagenChino = "assets/fotosZodi/jabali.jpg";
+                this.imagenChino = 'https://peopleenespanol.com/thmb/3_4ezJWMT8DtQSEuV5vMg3X8DUE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Horoscopo-chino-165969332-2000-eea5e27d3f4145c9b01121f4c61ccaef.jpg';
                 break;
             default:
-                this.imagenChino = "";
                 break;
         }
     }
